@@ -30,7 +30,7 @@ UartInit
 )
 {
     SerialPortInitialize();
-    DEBUG ((EFI_D_ERROR, "\nTianoCore on Microsoft Lumia 520 (ARM)\n"));
+    DEBUG ((EFI_D_ERROR, "\nTianoCore on NOKIA Lumia 925 (ARM)\n"));
     DEBUG ((EFI_D_ERROR,  "Firmware version %s built %a %a\n\n",
 	        (CHAR16*) PcdGetPtr(PcdFirmwareVersionString),
 			        __TIME__,
